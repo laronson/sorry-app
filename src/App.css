@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -30,4 +30,102 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* #main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+#main-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .side-of-board {
+  min-width: 10%;
+  background-color: green;
+} */
+
+#board {
+  height: 800px;
+  width:100%
+}
+
+.middle-board {
+  height: 87.5%;
+  display: flex;
+}
+
+
+.sideRow {
+  display: flex;
+  justify-content: space-around;
+  height: 6.25%;
+}
+
+.square{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 6.25%;
+}
+
+.sideSquare {
+  display: flex;
+  height: 6.25%;
+  flex-grow: 1;
+  border: 1px solid black;
+}
+
+.circle-square {
+  background-image: url("./images/circle.png");
+  background-size: cover;
+}
+
+.downRow {
+  display: flex;
+  flex-direction: column;
+  width: 6.25%;
+}
+
+#center-square {
+  width: 87.5%;
+  height: 100%;
+}
+
+#blue-home{
+  background-color: blue;
+}
+
+#green-home{
+  background-color: green;
+}
+
+#yellow-home{
+  background-color: yellow;
+}
+
+#red-home{
+  background-color: red;
+}
+
+.side-player-section {
+  height: 15%;
+}
+
+.down-player-section {
+  width: 15%
+}
+
+#center-center {
+  display: flex;
+  height: 70%;
+}
+
+#deck-section {
+  width: 70%;
 }
